@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Components/Hero'
 import AboutMe from './Components/AboutMe'
 import Skills from './Components/Skills'
+import Resume from './Components/Resume'
 
 const App = () => {
   return (
@@ -70,6 +71,7 @@ const App = () => {
         <Hero />
         <AboutMe />
         <Skills />
+        <Resume />
       </div>
     </div>
   )
