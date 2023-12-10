@@ -16,9 +16,9 @@ const AboutMe = () => {
                         Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
                 </div>
                 <div className="text-lg space-y-4">
-                    <h1><span className='font-bold'>Name:</span> Md. Eleush Zahan Shimul</h1>
+                    <h1 className='text-[#20c997]'><span className='font-bold text-white'>Name:</span> Md. Eleush Zahan Shimul</h1>
                     <hr className='h-[1px] border-[#3e444b]' />
-                    <h1><span className='font-bold'>Name:</span> shimulzahan636@gmail.com</h1>
+                    <h1 className='text-[#20c997]'><span className='font-bold text-white'>Email:</span> shimulzahan636@gmail.com</h1>
                     <hr className='h-[1px] border-[#3e444b]' />
                     <h1><span className='font-bold'>Age:</span> 23</h1>
                     <hr className='h-[1px] border-[#3e444b]' />
@@ -26,18 +26,38 @@ const AboutMe = () => {
                     <button className='py-3 px-6 bg-[#20c997] hover:bg-[#1baa80] transition-all transition-0.5s ease-in text-white rounded-full'>Download CV</button>
                 </div>
             </div>
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 p-10 py-20 ">
-                <div className="h-32 rounded-lg bg-gray-200">
-
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 p-10 py-20">
+                <div className="h-32 flex justify-center items-center border-r-[#3e444b] border-r-2">
+                    <div className="flex flex-col justify-center items-center p-2 text-lg text-[#dee3e4]">
+                        <span className="text-center font-bold text-6xl text-[#909294] pb-2">
+                            <span>00+</span>
+                        </span>
+                        Years Experience
+                    </div>
                 </div>
-                <div className="h-32 rounded-lg bg-gray-200">
-
+                <div className="h-32 flex justify-center items-center border-r-[#3e444b] border-r-2">
+                    <div className="flex flex-col justify-center items-center p-2 text-lg text-[#dee3e4]">
+                        <span className="text-center font-bold text-6xl text-[#909294] pb-2">
+                            <span>55+</span>
+                        </span>
+                        Total Projects
+                    </div>
                 </div>
-                <div className="h-32 rounded-lg bg-gray-200">
-
+                <div className="h-32 flex justify-center items-center border-r-[#3e444b] border-r-2">
+                    <div className="flex flex-col justify-center items-center p-2 text-lg text-[#dee3e4]">
+                        <span className="text-center font-bold text-6xl text-[#909294] pb-2">
+                            <span>01+</span>
+                        </span>
+                        Team Projects
+                    </div>
                 </div>
-                <div className="h-32 rounded-lg bg-gray-200">
-                    
+                <div className="h-32 flex justify-center items-center">
+                    <div className="flex flex-col justify-center items-center p-2 text-lg text-[#dee3e4]">
+                        <span className="text-center font-bold text-6xl text-[#909294] pb-2">
+                            <span>03+</span>
+                        </span>
+                        Current Projects
+                    </div>
                 </div>
             </div>
         </div>
