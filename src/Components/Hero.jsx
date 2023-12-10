@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter'
-import bgImage from '../assets/778.jpg'
+import bgImage from '../assets/778 (2).jpg'
 
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     
                     <h1 style={{ fontWeight: 'bold', fontSize: '52px', marginBottom: '10px' }}>
                         {' '}
-                        <span style={{ color: '#ffffff', fontWeight: 'bold' }}>
+                        <span style={{ color: '#20c997', fontWeight: 'bold' }}>
                             {/* Style will be inherited from the parent element */}
                             <Typewriter
                                 words={

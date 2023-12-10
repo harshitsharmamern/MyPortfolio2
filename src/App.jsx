@@ -1,5 +1,7 @@
 import React from 'react'
 import Hero from './Components/Hero'
+import AboutMe from './Components/AboutMe'
+import Skills from './Components/Skills'
 
 const App = () => {
   return (
@@ -66,6 +68,8 @@ const App = () => {
       </div>
       <div className='w-full lg:ml-80'>
         <Hero />
+        <AboutMe />
+        <Skills />
       </div>
     </div>
   )
