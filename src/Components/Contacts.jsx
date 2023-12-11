@@ -27,7 +27,7 @@ const Contacts = () => {
     };
 
     return (
-        <div className='bg-[#333a3f] min-h-screen relative'>
+        <div id='contact' className='bg-[#333a3f] min-h-screen relative'>
             <Title Children={'CONTACTS'} />
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'Get in Touch'} />

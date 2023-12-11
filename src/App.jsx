@@ -31,39 +31,39 @@ const App = () => {
 
           <ul className="mt-4 space-y-1 text-center">
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href='#' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 Home
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href='#about-me' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 About Me
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href='#resume' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 Resume
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href="#skills" className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 Portfolio
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href='#blogs' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 Blogs
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif  px-4 py-2 text-lg font-medium text-white">
+              <a href='#contact' className="block rounded-lg font-serif  px-4 py-2 text-lg font-medium text-white">
                 Contact
-              </div>
+              </a>
             </li>
             <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
+              <a href='#testimonial' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 Testimonial & Certification
-              </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -89,14 +89,28 @@ const App = () => {
         <Contacts />
         <Footer />
       </div>
-      <div className='lg:hidden flex justify-center items-center gap-7 md:text-2xl bg-[#20c997] fixed shadow-xl bottom-3 px-10 py-5 rounded-full left-1/2 translate-x-[-50%] z-50 text-black'>
-        <MdHome />
-        <GrUserManager />
-        <GiSkills />
-        <MdInsertInvitation />
-        <FaBlog />
-        <AiOutlineMessage />
-        <AiFillSafetyCertificate />
+      <div className='lg:hidden flex justify-center items-center gap-7 md:text-2xl bg-[#20c997] fixed shadow-xl bottom-3 px-10 py-5 rounded-full left-1/2 translate-x-[-50%] text-black'>
+        <a className='cursor-pointer' href="#">
+          <MdHome className='cursor-pointer' />
+        </a>
+        <a className='cursor-pointer' href="#about-me">
+          <GrUserManager />
+        </a>
+        <a className='cursor-pointer' href="#skills">
+          <GiSkills />
+        </a>
+        <a className='cursor-pointer' href="#resume">
+          <MdInsertInvitation />
+        </a>
+        <a className='cursor-pointer' href="#blogs">
+          <FaBlog />
+        </a>
+        <a className='cursor-pointer' href="#contact">
+          <AiOutlineMessage />
+        </a>
+        <a className='cursor-pointer' href="#testimonial">
+          <AiFillSafetyCertificate />
+        </a>
       </div>
     </div>
   )

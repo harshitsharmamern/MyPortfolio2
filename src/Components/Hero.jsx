@@ -5,7 +5,7 @@ import bgImage from '../assets/778 (2).jpg'
 const Hero = () => {
 
     return (
-        <div className="bg-black bg-blend-overlay bg-opacity-70 w-full h-screen bg-fixed"
+        <div id='#' className="bg-black bg-blend-overlay bg-opacity-70 w-full h-screen bg-fixed"
             style={{ backgroundImage: `url('${bgImage}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className=" flex justify-center items-center h-screen text-center text-neutral-content">
                 <div className="">

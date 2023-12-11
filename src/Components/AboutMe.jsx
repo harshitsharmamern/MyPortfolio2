@@ -4,7 +4,7 @@ import SubTitle from './SubTitle'
 
 const AboutMe = () => {
     return (
-        <div className='bg-[#212529] min-h-screen relative'>
+        <div id='about-me' className='bg-[#212529] min-h-screen relative'>
             <Title Children={'ABOUT ME'} />
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'Know Me More'} />

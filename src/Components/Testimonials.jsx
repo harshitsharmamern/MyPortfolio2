@@ -4,7 +4,7 @@ import SubTitle from './SubTitle'
 
 const Testimonials = () => {
     return (
-        <div className='bg-[#212529] lg:min-h-screen relative'>
+        <div id='testimonial' className='bg-[#212529] lg:min-h-screen relative'>
             <Title Children={'TESTIMONIALS'} />
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'Here is all Testimonial and Review'} />

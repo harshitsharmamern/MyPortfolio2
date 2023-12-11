@@ -7,7 +7,7 @@ import './portfolio.css'
 
 const Portfolio = () => {
     return (
-        <div className='bg-[#212529] min-h-screen relative'>
+        <div id='skills' className='bg-[#212529] min-h-screen relative'>
             <Title Children={'PORTFOLIO'} />
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'My Portfolio'} />
