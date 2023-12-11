@@ -17,25 +17,25 @@ const Contacts = () => {
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'Get in Touch'} />
             </div>
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 my-20 px-10">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:my-20 px-4 md:px-10">
                 <div className="rounded-lg space-y-8">
                     <div className='space-y-3'>
-                        <h1 className='text-xl font-bold text-white'>ADRESS</h1>
-                        <p className='text-lg font-medium text-[#b7b5b5]'>Mohanpur, Rajshahi-6220 <br /> Bangladesh</p>
+                        <h1 className='md:text-xl font-bold text-white'>ADRESS</h1>
+                        <p className='md:text-lg font-medium text-[#b7b5b5]'>Mohanpur, Rajshahi-6220 <br /> Bangladesh</p>
                     </div>
                     <div className='space-y-2 text-[#b7b5b5]'>
-                        <h1 className='text-lg font-medium flex justify-start items-center gap-2'>
-                            <IoCall className='text-[#20c997] text-xl' />+880 1714760739</h1>
-                        <h1 className='text-lg font-medium flex justify-start items-center gap-2'>
-                            <FaLinkedin className='text-[#20c997] text-xl' />Shimul Zahan</h1>
-                        <h1 className='text-lg font-medium flex justify-start items-center gap-2'>
-                            <FaWhatsappSquare className='text-[#20c997] text-xl' /> +880 1714760739</h1>
-                        <h1 className='text-lg font-medium flex justify-start items-center gap-2'>
+                        <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
+                            <IoCall className='text-[#20c997] md:text-xl' />+880 1714760739</h1>
+                        <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
+                            <FaLinkedin className='text-[#20c997] md:text-xl' />Shimul Zahan</h1>
+                        <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
+                            <FaWhatsappSquare className='text-[#20c997] md:text-xl' /> +880 1714760739</h1>
+                        <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
                             <IoIosMail className='text-[#20c997] text-2xl' />shimulzahan636@gmail.com</h1>
                     </div>
                     <div className='space-y-3'>
-                        <h1 className='text-xl font-bold text-white'>FOLLOW ME</h1>
-                        <div className='flex justify-start items-center text-2xl text-[#b7b5b5] space-x-3'>
+                        <h1 className='md:text-xl font-bold text-white'>FOLLOW ME</h1>
+                        <div className='flex justify-start items-center md:text-2xl text-[#b7b5b5] space-x-3'>
                             <FaGithub />
                             <FaLinkedin />
                             <FaFacebookSquare />
@@ -44,12 +44,12 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg lg:col-span-2">
-                    <div className='space-y-3'>
-                        <h1 className='text-xl font-bold text-white'>SEND US A NOTE</h1>
-                        <form action="#" className="mt-8 grid grid-cols-6 gap-6">
+                <div className="rounded-lg mt-10 lg:mt-0 lg:col-span-2">
+                    <div className='space-y-1 md:space-y-3'>
+                        <h1 className='md:text-xl mb-2 font-bold text-white'>SEND US A NOTE</h1>
+                        <form action="#" className="mt-8 grid grid-cols-6 gap-3 md:gap-6">
                             <div className="col-span-6 sm:col-span-3">
-                                <label className="block text-lg font-medium text-white">
+                                <label className="block md:text-lg font-medium text-white">
                                     Name
                                 </label>
 
@@ -61,7 +61,7 @@ const Contacts = () => {
                             </div>
 
                             <div className="col-span-6 sm:col-span-3">
-                                <label className="block text-lg text-white ">
+                                <label className="block md:text-lg text-white ">
                                     Email
                                 </label>
 
@@ -73,7 +73,7 @@ const Contacts = () => {
                             </div>
 
                             <div className="col-span-6">
-                                <label class="block text-lg font-medium text-white"> Order notes </label>
+                                <label class="block md:text-lg font-medium text-white"> Order notes </label>
 
                                 <textarea
                                     class="mt-2 p-4 w-full rounded-lg text-white align-top outline-none bg-[#232a31]"
@@ -82,9 +82,9 @@ const Contacts = () => {
                                 ></textarea>
                             </div>
 
-                            <div className="col-span-6 flex justify-center rounded-full items-center sm:gap-4">
+                            <div className="col-span-6 py-10 md:py-0 flex justify-center rounded-full items-center sm:gap-4">
                                 <button
-                                    className="inline-block rounded-full shrink-0 border border-[#20c997] bg-[#20c997] px-12 py-3 text-lg font-medium text-white transition hover:bg-[#1baa80]"
+                                    className="inline-block rounded-full shrink-0 border border-[#20c997] bg-[#20c997] px-12 py-3 md:text-lg font-medium text-white transition hover:bg-[#1baa80]"
                                 >
                                     Send Message
                                 </button>

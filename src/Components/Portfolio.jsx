@@ -14,7 +14,7 @@ const Portfolio = () => {
             </div>
             <div className='text-white text-center mt-10'>
                 <Tabs >
-                    <TabList className="flex justify-center items-center gap-5">
+                    <TabList className="flex flex-col md:flex-row justify-center items-center gap-5">
                         <Tab className="px-6 py-2 border-[#20c997] border-2 rounded-full cursor-pointer focus:bg-[#20c997]">All Projects</Tab>
                         <Tab className="px-6 py-2 border-[#20c997] border-2 rounded-full cursor-pointer focus:bg-[#20c997]">Current Projects</Tab>
                         <Tab className="px-6 py-2 border-[#20c997] border-2 rounded-full cursor-pointer focus:bg-[#20c997]">Team Projects</Tab>
@@ -22,7 +22,7 @@ const Portfolio = () => {
 
                     <TabPanel>
                         <h2>
-                            <div className="grid grid-cols-1 md:grid-cols-3 px-10 py-10 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-3 px-4 md:px-10 py-10 gap-4">
                                 <div className="grid gap-4">
                                     <div>
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />

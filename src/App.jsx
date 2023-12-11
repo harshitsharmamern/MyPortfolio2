@@ -6,11 +6,18 @@ import Resume from './Components/Resume'
 import Portfolio from './Components/Portfolio'
 import Contacts from './Components/Contacts'
 import Footer from './Components/Footer'
+import { MdHome } from "react-icons/md";
+import { GrUserManager } from "react-icons/gr";
+import { GiSkills } from "react-icons/gi";
+import { MdInsertInvitation } from "react-icons/md";
+import { AiOutlineMessage } from "react-icons/ai";
+import { FaBlog } from "react-icons/fa";
+import { AiFillSafetyCertificate } from "react-icons/ai";
 
 const App = () => {
   return (
     <div className='flex flex-col lg:flex-row justify-start min-h-screen'>
-      <div className="flex lg:h-screen flex-col justify-between border-e lg:fixed bg-[#111418]">
+      <div className="hidden lg:block lg:h-screen flex-col justify-between lg:fixed bg-[#111418]">
         <div className="px-4 py-3">
           <span className="grid w-72 place-content-center rounded-lg text-xs text-gray-600">
             <div className='mt-1'>
@@ -59,7 +66,7 @@ const App = () => {
           </ul>
         </div>
 
-        <div className="sticky inset-x-0 bottom-0 border-t">
+        <div className="sticky inset-x-0 bottom-0">
           <a href="#" className="flex items-center gap-2 px-4 py-2">
             <h1 className='text-center mx-auto text-white'>Hello</h1>
           </a>
@@ -73,6 +80,15 @@ const App = () => {
         <Portfolio />
         <Contacts />
         <Footer />
+      </div>
+      <div className='lg:hidden flex justify-center items-center gap-7 md:text-2xl bg-[#20c997] fixed shadow-xl bottom-3 px-10 py-5 rounded-full left-1/2 translate-x-[-50%] z-50 text-black'>
+        <MdHome />
+        <GrUserManager />
+        <GiSkills />
+        <MdInsertInvitation />
+        <FaBlog />
+        <AiOutlineMessage />
+        <AiFillSafetyCertificate />
       </div>
     </div>
   )

@@ -16,14 +16,14 @@ import { IoLogoVercel } from "react-icons/io5";
 
 const Skills = () => {
     return (
-        <div className='bg-[#343a40] min-h-screen relative'>
+        <div className='bg-[#343a40] min-h-screen relative pb-10'>
             <Title Children={'MY SKILLS'} />
             <div className='flex justify-center items-center pt-20 z-20 relative'>
                 <SubTitle Children={'The Technology I am Know'} />
             </div>
 
-            <div className='pt-10 px-5 text-center'>
-                <div className='text-lg text-white w-[80%] mx-auto mb-10'>I'm Versatile MERN Stack Developer | Proficient in HTML, CSS, Tailwind CSS, React, and JavaScript for Frontend | Comfortable with Backend Technologies: Node.js, Express.js, MongoDB | Experienced in Firebase for Deployment | Eager to Contribute and Learn in a Dynamic Development Environment</div>
+            <div className='pt-10 md:px-5 text-center'>
+                <div className='text-base md:text-lg text-white w-[80%] mx-auto mb-10'>I'm Versatile MERN Stack Developer | Proficient in HTML, CSS, Tailwind CSS, React, and JavaScript for Frontend | Comfortable with Backend Technologies: Node.js, Express.js, MongoDB | Experienced in Firebase for Deployment | Eager to Contribute and Learn in a Dynamic Development Environment</div>
 
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-16 px-10">
                     <div className="text-start space-y-3">
