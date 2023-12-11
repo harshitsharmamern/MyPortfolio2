@@ -11,8 +11,10 @@ import { GrUserManager } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
 import { MdInsertInvitation } from "react-icons/md";
 import { AiOutlineMessage } from "react-icons/ai";
-import { FaBlog } from "react-icons/fa";
+import { FaBlog, FaDribbbleSquare, FaFacebookSquare, FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
 import { AiFillSafetyCertificate } from "react-icons/ai";
+import Blogs from './Components/Blogs'
+import Testimonials from './Components/Testimonials'
 
 const App = () => {
   return (
@@ -66,10 +68,14 @@ const App = () => {
           </ul>
         </div>
 
-        <div className="sticky inset-x-0 bottom-0">
-          <a href="#" className="flex items-center gap-2 px-4 py-2">
-            <h1 className='text-center mx-auto text-white'>Hello</h1>
-          </a>
+        <div className="fixed w-72 inset-x-0 bottom-4">
+          <div className='flex justify-center items-center md:text-xl text-[#b7b5b5] space-x-3'>
+            <FaGithub />
+            <FaLinkedin />
+            <FaFacebookSquare />
+            <FaDribbbleSquare />
+            <FaGoogle />
+          </div>
         </div>
       </div>
       <div className='w-full lg:ml-80'>
@@ -78,6 +84,8 @@ const App = () => {
         <Skills />
         <Resume />
         <Portfolio />
+        <Blogs />
+        <Testimonials />
         <Contacts />
         <Footer />
       </div>
