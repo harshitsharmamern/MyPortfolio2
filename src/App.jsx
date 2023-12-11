@@ -3,6 +3,9 @@ import Hero from './Components/Hero'
 import AboutMe from './Components/AboutMe'
 import Skills from './Components/Skills'
 import Resume from './Components/Resume'
+import Portfolio from './Components/Portfolio'
+import Contacts from './Components/Contacts'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -26,11 +29,6 @@ const App = () => {
             <li>
               <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
                 About Me
-              </div>
-            </li>
-            <li>
-              <div className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
-                What I Do
               </div>
             </li>
             <li>
@@ -72,6 +70,9 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Resume />
+        <Portfolio />
+        <Contacts />
+        <Footer />
       </div>
     </div>
   )
