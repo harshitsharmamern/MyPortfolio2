@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from './Title'
 import SubTitle from './SubTitle'
+import pdf from '../assets/MdEleushZahanShimulResume_5.pdf'
 
 const AboutMe = () => {
     return (
@@ -23,8 +24,10 @@ const AboutMe = () => {
                     <hr className='h-[1px] border-[#3e444b]' />
                     <h1><span className='font-bold'>Age:</span> 23</h1>
                     <hr className='h-[1px] border-[#3e444b]' />
-                    <h1><span className='font-bold'>From:</span> Rajshahi, Bangladesh</h1>
-                    <button className='py-3 px-6 bg-[#20c997] hover:bg-[#1baa80] transition-all transition-0.5s ease-in text-white rounded-full'>Download CV</button>
+                    <h1 className=''><span className='font-bold'>From:</span> Rajshahi, Bangladesh</h1>
+                    <div>
+                        <a href={pdf} className='py-3 px-6 bg-[#20c997] hover:bg-[#1baa80] transition-all transition-0.5s ease-in text-white rounded-full'>Download CV</a>
+                    </div>
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-8 p-10 py-20">

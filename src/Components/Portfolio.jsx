@@ -3,7 +3,6 @@ import Title from './Title'
 import SubTitle from './SubTitle'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './portfolio.css'
-import ImageComponents from './ImageComponents';
 
 const Portfolio = () => {
 
@@ -11,7 +10,7 @@ const Portfolio = () => {
 
 
     useEffect(() => {
-        fetch('../../public/projects.json')
+        fetch('/projects.json')
             .then(res => res.json())
             .then(data => setData(data));
     }, [])
@@ -30,7 +29,7 @@ const Portfolio = () => {
                         <Tab className="px-6 py-2 border-[#20c997] border-2 rounded-full cursor-pointer focus:bg-[#20c997]">Team Projects</Tab>
                     </TabList>
                     <TabPanel>
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 pt-10 md:px-10">
+                        <div class="grid p-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10 md:px-10">
                             {
                                 data?.map((skill, index) =>
                                     <div className="group block overflow-hidden">
@@ -46,9 +45,9 @@ const Portfolio = () => {
                                                 alt=""
                                                 className="absolute inset-0 h-[280px] w-full rounded-lg opacity-0 group-hover:opacity-100"
                                             />
-                                            <div className='absolute bottom-2 space-x-3'>
-                                                <a href={skill?.git} className='py-2 px-6 border-2 hover:bg-[#29ad85] bg-[#20c997] rounded-full'>Github Code</a>
-                                                <a href={skill?.Live} className='py-2 px-6 border-2 hover:bg-[#29ad85] bg-[#20c997] rounded-full'>Visit Site</a>
+                                            <div className='absolute bottom-2 space-x-3 flex'>
+                                                <a href={skill?.git} target='_blank' className='py-2 px-6 border-2 hover:bg-[#29ad85] bg-[#20c997] rounded-full'>Github Code</a>
+                                                <a href={skill?.Live} target='_blank' className='py-2 px-6 border-2 hover:bg-[#29ad85] bg-[#20c997] rounded-full'>Visit Site</a>
                                             </div>
                                         </div>
                                     </div>

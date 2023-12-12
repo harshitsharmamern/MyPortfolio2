@@ -12,9 +12,6 @@ import { GiSkills } from "react-icons/gi";
 import { MdInsertInvitation } from "react-icons/md";
 import { AiOutlineMessage } from "react-icons/ai";
 import { FaBlog, FaDribbbleSquare, FaFacebookSquare, FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
-import { AiFillSafetyCertificate } from "react-icons/ai";
-import Blogs from './Components/Blogs'
-import Testimonials from './Components/Testimonials'
 
 const App = () => {
   return (
@@ -23,7 +20,7 @@ const App = () => {
         <div className="px-4 py-3">
           <span className="grid w-72 place-content-center rounded-lg text-xs text-gray-600">
             <div className='mt-1'>
-              <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+              <img src="https://i.ibb.co/P6yRnBk/1687091724429.jpg"
                 className='h-52 w-52 rounded-full bg-gray-500 p-2' alt="" />
               <h1 className='text-center text-2xl font-bold mt-2 text-white'>Shimul Zahan</h1>
             </div>
@@ -60,9 +57,15 @@ const App = () => {
 
         <div className="fixed w-72 inset-x-0 bottom-4">
           <div className='flex justify-center items-center md:text-xl text-[#b7b5b5] space-x-3'>
-            <FaGithub />
-            <FaLinkedin />
-            <FaFacebookSquare />
+            <a target='_blank' href="https://github.com/Shimul-Zahan">
+              <FaGithub />
+            </a>
+            <a target='_blank' href="https://www.linkedin.com/in/shimul-zahan-b5035427b/">
+              <FaLinkedin />
+            </a>
+            <a target='_blank' href="https://www.facebook.com/shimul.zahan.9">
+              <FaFacebookSquare />
+            </a>
             <FaDribbbleSquare />
             <FaGoogle />
           </div>

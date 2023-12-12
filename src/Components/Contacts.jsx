@@ -10,6 +10,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaWhatsappSquare } from "react-icons/fa";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contacts = () => {
 
@@ -20,7 +21,12 @@ const Contacts = () => {
 
         emailjs.sendForm('service_7ay2tdk', 'template_z5dxop8', form.current, '8R2AlonC3RdZ-e1uD')
             .then((result) => {
-                console.log(result);
+                Swal.fire({
+                    title: "Congratulations!!!",
+                    text: "Message sent",
+                    icon: "success"
+                });
+                e.target.reset();
             }, (error) => {
                 console.log(error);
             });
@@ -51,9 +57,15 @@ const Contacts = () => {
                     <div className='space-y-3'>
                         <h1 className='md:text-xl font-bold text-white'>FOLLOW ME</h1>
                         <div className='flex justify-start items-center md:text-2xl text-[#b7b5b5] space-x-3'>
-                            <FaGithub />
-                            <FaLinkedin />
-                            <FaFacebookSquare />
+                            <a target='_blank' href="https://github.com/Shimul-Zahan">
+                                <FaGithub />
+                            </a>
+                            <a target='_blank' href="https://www.linkedin.com/in/shimul-zahan-b5035427b/">
+                                <FaLinkedin />
+                            </a>
+                            <a target='_blank' href="https://www.facebook.com/shimul.zahan.9">
+                                <FaFacebookSquare />
+                            </a>
                             <FaDribbbleSquare />
                             <FaGoogle />
                         </div>

@@ -41,6 +41,7 @@
         "Live": "https://terrific-territory.surge.sh/",
         "git": "https://github.com/Shimul-Zahan/community-food-shareing"
     },
+    
     {
         "id": 3,
         "projectName": "Unity Shop",
@@ -54,32 +55,11 @@
             "JavaScript"
         ],
         "images": [
-            "https://i.ibb.co/q5msM58/em-1.png",
-            "https://i.ibb.co/92mZs9F/em-2.png"
+            "https://i.ibb.co/sV11j3p/bs-1.png",
+            "https://i.ibb.co/YLyNsMS/bs-2.png"
         ],
         "Live": "https://brand-shop-3a60e.web.app/",
         "git": "https://github.com/Shimul-Zahan/brand-shop-frontend"
-    },
-    {
-        "id": 4,
-        "projectName": "Event Management",
-        "projectDetails": "It is a event management system. A user can hire a team for their evant organization.",
-        "usedTechnology": [
-            "React",
-            "Tailwind CSS",
-            "Axios",
-            "TanStack Query",
-            "Node.js",
-            "Express",
-            "MongoDB",
-            "JavaScript"
-        ],
-        "images": [
-            "https://i.ibb.co/09RrwrP/tg-1.png",
-            "https://i.ibb.co/n3nj7xH/tg-2.png"
-        ],
-        "Live": "https://event-management-7180b.web.app/",
-        "git": "https://github.com/Shimul-Zahan/event-management"
     },
     {
         "id": 6,
