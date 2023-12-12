@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "projectName": "Memory Matrimony BD",
+        "projectDetails": "An online marketplace for buying and selling products.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/BCdXqqX/image-1.png",
+            "https://i.ibb.co/C2Q2FVm/mat-2.png"
+        ]
+    },
+    {
+        "id": 2,
+        "projectName": "Feeding Neighbour",
+        "projectDetails": "A weather application providing current conditions and forecasts.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/VpmN8Fp/fs-1.png",
+            "https://i.ibb.co/Bgg9bxr/fs-2.png"
+        ]
+    },
+    {
+        "id": 3,
+        "projectName": "Unity Shop",
+        "projectDetails": "A platform for managing tasks and projects within a team.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/q5msM58/em-1.png",
+            "https://i.ibb.co/92mZs9F/em-2.png"
+        ]
+    },
+    {
+        "id": 4,
+        "projectName": "Social Media Dashboard",
+        "projectDetails": "A dashboard for monitoring and analyzing social media activities.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/sV11j3p/bs-1.png",
+            "https://i.ibb.co/YLyNsMS/bs-2.png"
+        ]
+    },
+    {
+        "id": 5,
+        "projectName": "Fitness Tracking App",
+        "projectDetails": "An application to track and monitor fitness activities and progress.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/NshnTfr/dn-1.png",
+            "https://i.ibb.co/WDRjszT/dn-2.png"
+        ]
+    },
+    {
+        "id": 6,
+        "projectName": "Online Learning Platform",
+        "projectDetails": "A platform for online courses and educational materials.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "Axios",
+            "TanStack Query",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/09RrwrP/tg-1.png",
+            "https://i.ibb.co/n3nj7xH/tg-2.png"
+        ]
+    }
+]
