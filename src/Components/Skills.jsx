@@ -33,33 +33,33 @@ const Skills = () => {
                                 <TiHtml5 className='text-2xl text-yellow-600' />
                                 <h1 className='text-white'>70%</h1>
                             </div>
-                            <progress className="progress progress-success bg-yellow-600 w-full" color='#20c997' value="70" max="100"></progress>
+                            <progress className="progress progress-success bg-[#fff] w-full" color='#20c997' value="70" max="100"></progress>
                         </div>
                         <div>
                             <div className='flex justify-between'>
                                 <FaCss3 className='text-2xl text-blue-500' />
                                 <h1 className='text-white'>65%</h1>
                             </div>
-                            <progress className="progress progress-success bg-blue-500 w-full" color='#20c997' value="65" max="100"></progress>
+                            <progress className="progress progress-success bg-[#fff] w-full" color='#20c997' value="65" max="100"></progress>
                         </div>
                         <div>
                             <div className='flex justify-between'>
                                 <SiTailwindcss className='text-2xl text-[#3abdf8]' />
                                 <h1 className='text-white'>70%</h1>
                             </div>
-                            <progress className="progress progress-success bg-[#3abdf8] w-full" color='#3abdf8' value="70" max="100"></progress>
+                            <progress className="progress progress-success bg-[#fff] w-full" color='#3abdf8' value="70" max="100"></progress>
                         </div><div>
                             <div className='flex justify-between'>
                                 <IoLogoJavascript className='text-2xl text-yellow-500' />
                                 <h1 className='text-white'>70%</h1>
                             </div>
-                            <progress className="progress progress-success bg-yellow-500 w-full" color='#20c997' value="70" max="100"></progress>
+                            <progress className="progress progress-success bg-[#fff] w-full" color='#20c997' value="70" max="100"></progress>
                         </div><div>
                             <div className='flex justify-between'>
                                 <FaReact className='text-2xl text-[#3abdf8]' />
                                 <h1 className='text-white'>80%</h1>
                             </div>
-                            <progress className="progress progress-success bg-[#3abdf8] w-full" color='#20c997' value="80" max="100"></progress>
+                            <progress className="progress progress-success bg-[#fff] w-full" color='#20c997' value="80" max="100"></progress>
                         </div>
                     </div>
                     <div className="">

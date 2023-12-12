@@ -2,7 +2,7 @@
     {
         "id": 1,
         "projectName": "Memory Matrimony BD",
-        "projectDetails": "An online marketplace for buying and selling products.",
+        "projectDetails": "This is a partner search site. Here a boy or girl can find a partner of their choice. This site has separate dashboard for both user and admin. There is also a system to take premium membership, so if you are not a premium member, there is also a system to request to take the number of your favorite person by paying money.",
         "usedTechnology": [
             "React",
             "Tailwind CSS",
@@ -16,12 +16,14 @@
         "images": [
             "https://i.ibb.co/BCdXqqX/image-1.png",
             "https://i.ibb.co/C2Q2FVm/mat-2.png"
-        ]
+        ],
+        "Live": "https://memory-matrimony-bd.surge.sh/",
+        "git": "https://github.com/Shimul-Zahan/Matrimony-frontend"
     },
     {
         "id": 2,
         "projectName": "Feeding Neighbour",
-        "projectDetails": "A weather application providing current conditions and forecasts.",
+        "projectDetails": "It is a food sharing site where a user can share his/her sold food and if one wants to pay some money, one can take it for free or if one wants to eat it for free. Here also the donor can change all the updates of his food.",
         "usedTechnology": [
             "React",
             "Tailwind CSS",
@@ -35,17 +37,17 @@
         "images": [
             "https://i.ibb.co/VpmN8Fp/fs-1.png",
             "https://i.ibb.co/Bgg9bxr/fs-2.png"
-        ]
+        ],
+        "Live": "https://terrific-territory.surge.sh/",
+        "git": "https://github.com/Shimul-Zahan/community-food-shareing"
     },
     {
         "id": 3,
         "projectName": "Unity Shop",
-        "projectDetails": "A platform for managing tasks and projects within a team.",
+        "projectDetails": "This is a e-commerce website. Here the products of various brands have been shown. Different brands can add their products. And he can delete and update them later. Users can see the products of their choice. You can buy it at will. The products he buys will be added to the add to card section.",
         "usedTechnology": [
             "React",
             "Tailwind CSS",
-            "Axios",
-            "TanStack Query",
             "Node.js",
             "Express",
             "MongoDB",
@@ -54,50 +56,14 @@
         "images": [
             "https://i.ibb.co/q5msM58/em-1.png",
             "https://i.ibb.co/92mZs9F/em-2.png"
-        ]
+        ],
+        "Live": "https://brand-shop-3a60e.web.app/",
+        "git": "https://github.com/Shimul-Zahan/brand-shop-frontend"
     },
     {
         "id": 4,
-        "projectName": "Social Media Dashboard",
-        "projectDetails": "A dashboard for monitoring and analyzing social media activities.",
-        "usedTechnology": [
-            "React",
-            "Tailwind CSS",
-            "Axios",
-            "TanStack Query",
-            "Node.js",
-            "Express",
-            "MongoDB",
-            "JavaScript"
-        ],
-        "images": [
-            "https://i.ibb.co/sV11j3p/bs-1.png",
-            "https://i.ibb.co/YLyNsMS/bs-2.png"
-        ]
-    },
-    {
-        "id": 5,
-        "projectName": "Fitness Tracking App",
-        "projectDetails": "An application to track and monitor fitness activities and progress.",
-        "usedTechnology": [
-            "React",
-            "Tailwind CSS",
-            "Axios",
-            "TanStack Query",
-            "Node.js",
-            "Express",
-            "MongoDB",
-            "JavaScript"
-        ],
-        "images": [
-            "https://i.ibb.co/NshnTfr/dn-1.png",
-            "https://i.ibb.co/WDRjszT/dn-2.png"
-        ]
-    },
-    {
-        "id": 6,
-        "projectName": "Online Learning Platform",
-        "projectDetails": "A platform for online courses and educational materials.",
+        "projectName": "Event Management",
+        "projectDetails": "It is a event management system. A user can hire a team for their evant organization.",
         "usedTechnology": [
             "React",
             "Tailwind CSS",
@@ -111,6 +77,41 @@
         "images": [
             "https://i.ibb.co/09RrwrP/tg-1.png",
             "https://i.ibb.co/n3nj7xH/tg-2.png"
-        ]
+        ],
+        "Live": "https://event-management-7180b.web.app/",
+        "git": "https://github.com/Shimul-Zahan/event-management"
+    },
+    {
+        "id": 6,
+        "projectName": "Dragon News",
+        "projectDetails": "A platform for news portal",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/09RrwrP/tg-1.png",
+            "https://i.ibb.co/n3nj7xH/tg-2.png"
+        ],
+        "Live": "https://dragon-news-f31ec.web.app/",
+        "git": "https://github.com/Shimul-Zahan/dragon-news"
+    },
+    {
+        "id": 5,
+        "projectName": "Travel Guru",
+        "projectDetails": "An application for travel agency.",
+        "usedTechnology": [
+            "React",
+            "Tailwind CSS",
+            "JavaScript"
+        ],
+        "images": [
+            "https://i.ibb.co/NshnTfr/dn-1.png",
+            "https://i.ibb.co/WDRjszT/dn-2.png"
+        ],
+        "Live": "https://travel-guru-4f2cf.web.app/",
+        "git": "https://github.com/Shimul-Zahan/travel-guru"
     }
+    
 ]

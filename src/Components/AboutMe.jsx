@@ -12,8 +12,9 @@ const AboutMe = () => {
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-10 px-8 pt-20 text-white">
                 <div className="lg:col-span-2 space-y-5">
                     <h1 className='text-xl md:text-3xl font-bold'>I'm <span className='font-medium text-[#20c997]'>Shimul Zahan,</span> a MERN Stack Developer.</h1>
-                    <p className='text-base md:text-lg font-medium text-[#898b8d]'>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br /> <br />
-                        Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+                    <p className='text-base md:text-lg font-medium text-[#898b8d]'>Versatile MERN Stack Developer | Proficient in HTML, CSS, Tailwind CSS, React, and JavaScript for Frontend | Comfortable with Backend Technologies: Node.js, Express.js, MongoDB | Experienced in Firebase for Deployment | Eager to Contribute and Learn in a Dynamic Development Environment <br /> <br />
+                        Delivering work within time and budget which meets client’s requirements is my moto.
+                    I belive in hard work and team work.</p>
                 </div>
                 <div className=" md:text-lg space-y-4">
                     <h1 className='text-[#20c997]'><span className='font-bold text-white'>Name:</span> Md. Eleush Zahan Shimul</h1>

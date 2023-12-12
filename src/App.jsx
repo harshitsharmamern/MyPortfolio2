@@ -51,18 +51,8 @@ const App = () => {
               </a>
             </li>
             <li>
-              <a href='#blogs' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
-                Blogs
-              </a>
-            </li>
-            <li>
               <a href='#contact' className="block rounded-lg font-serif  px-4 py-2 text-lg font-medium text-white">
                 Contact
-              </a>
-            </li>
-            <li>
-              <a href='#testimonial' className="block rounded-lg font-serif px-4 py-2 text-lg font-medium text-white">
-                Testimonial & Certification
               </a>
             </li>
           </ul>
@@ -84,8 +74,6 @@ const App = () => {
         <Skills />
         <Resume />
         <Portfolio />
-        <Blogs />
-        <Testimonials />
         <Contacts />
         <Footer />
       </div>
@@ -102,14 +90,8 @@ const App = () => {
         <a className='cursor-pointer' href="#resume">
           <MdInsertInvitation />
         </a>
-        <a className='cursor-pointer' href="#blogs">
-          <FaBlog />
-        </a>
         <a className='cursor-pointer' href="#contact">
           <AiOutlineMessage />
-        </a>
-        <a className='cursor-pointer' href="#testimonial">
-          <AiFillSafetyCertificate />
         </a>
       </div>
     </div>

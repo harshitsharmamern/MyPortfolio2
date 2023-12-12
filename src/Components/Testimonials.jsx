@@ -80,9 +80,7 @@ const Testimonials = () => {
                                 </div>
 
                                 <p className="mt-4 text-white  text-base">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                    error officiis atque voluptates magnam!
+"Working with Shimul Zahan as our web developer has been an exceptional experience. Shimul Zahan demonstrated a deep understanding of our project requirements and translated them into a website that exceeded our expectations. Their technical expertise was evident throughout the development process.
                                 </p>
                             </blockquote>
 
@@ -148,14 +146,12 @@ const Testimonials = () => {
                                             </svg>
                                         </div>
 
-                                        <p className="mt-0.5 text-lg text-white font-medium ">Paul Starr</p>
+                                        <p className="mt-0.5 text-lg text-white font-medium ">John Starr</p>
                                     </div>
                                 </div>
 
                                 <p className="mt-4 text-base text-white"text-base>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                    error officiis atque voluptates magnam!
+                                    Communication with Shimul Zahan was clear and effective. They kept us informed at every stage of the project, ensuring that we were aligned on goals and timelines. Shimul Zahan's attention to detail and commitment to delivering a high-quality product were truly impressive.
                                 </p>
                             </blockquote>
 
@@ -163,7 +159,7 @@ const Testimonials = () => {
                                 <div className="flex items-center gap-4">
                                     <img
                                         alt="Man"
-                                        src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                                        src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.435112184.1700343142&semt=sph"
                                         className="h-14 w-14 rounded-full object-cover"
                                     />
 
@@ -226,9 +222,7 @@ const Testimonials = () => {
                                 </div>
 
                                 <p className="mt-4 text-white text-base"text-base>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                    error officiis atque voluptates magnam!
+                                    One of the key strengths of Shimul zahan is their ability to balance functionality with aesthetics. The website not only functions flawlessly but also has a visually appealing design that resonates with our brand.
                                 </p>
                             </blockquote>
                         </div>
