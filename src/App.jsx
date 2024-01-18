@@ -20,7 +20,7 @@ const App = () => {
         <div className="px-4 py-3">
           <span className="grid w-72 place-content-center rounded-lg text-xs text-gray-600">
             <div className='mt-1'>
-              <img src="https://i.ibb.co/P6yRnBk/1687091724429.jpg"
+              <img src="https://i.ibb.co/RcZ8HTH/IMG-20240118-234834.jpg"
                 className='h-52 w-52 rounded-full bg-gray-500 p-2' alt="" />
               <h1 className='text-center text-2xl font-bold mt-2 text-white'>Shimul Zahan</h1>
             </div>
