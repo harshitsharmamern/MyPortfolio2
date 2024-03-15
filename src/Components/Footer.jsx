@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#212529]">
             <div className="mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8 pt-4">
-                <h1 className='text-center text-white my-2'>All right reserved &copy;Shimul_Zahan 2023 </h1>
+                <h1 className='text-center text-white my-2'>All right reserved &copy;Harshit Sharma 2024 </h1>
                 <div
                     className="mt-0 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-0"
                 >
@@ -97,7 +97,7 @@ const Footer = () => {
                             </a>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <a
                                 href="/"
                                 rel="noreferrer"
@@ -114,7 +114,7 @@ const Footer = () => {
                                     />
                                 </svg>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

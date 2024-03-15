@@ -11,7 +11,9 @@ import { GrUserManager } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
 import { MdInsertInvitation } from "react-icons/md";
 import { AiOutlineMessage } from "react-icons/ai";
-import { FaBlog, FaDribbbleSquare, FaFacebookSquare, FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
+import { FaBlog, FaDribbbleSquare, FaFacebookSquare, FaGithub, FaGoogle, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import harshit_img from './assets/harshitimg.jpeg'
+
 
 const App = () => {
   return (
@@ -20,9 +22,9 @@ const App = () => {
         <div className="px-4 py-3">
           <span className="grid w-72 place-content-center rounded-lg text-xs text-gray-600">
             <div className='mt-1'>
-              <img src="https://i.ibb.co/RcZ8HTH/IMG-20240118-234834.jpg"
-                className='h-52 w-52 rounded-full bg-gray-500 p-2' alt="" />
-              <h1 className='text-center text-2xl font-bold mt-2 text-white'>Shimul Zahan</h1>
+              <img src={harshit_img}
+                className='h-52 w-52 rounded-full bg-gray-500 p-2' alt="img" />
+              <h1 className='text-center text-2xl font-bold mt-2 text-white'>Harshit Sharma 👻</h1>
             </div>
           </span>
 
@@ -57,14 +59,21 @@ const App = () => {
 
         <div className="fixed w-72 inset-x-0 bottom-4">
           <div className='flex justify-center items-center md:text-xl text-[#b7b5b5] space-x-3'>
-            <a target='_blank' href="https://github.com/Shimul-Zahan">
+          <a target='_blank' href="https://github.com/harshitsharmamern">
+
+            {/* <a target='_blank' href="https://github.com/Shimul-Zahan"> */}
               <FaGithub />
             </a>
-            <a target='_blank' href="https://www.linkedin.com/in/shimul-zahan-b5035427b/">
+            <a target='_blank' href="https://www.linkedin.com/in/harshit-sharma-7b039b1aa/">
+
+            {/* <a target='_blank' href="https://www.linkedin.com/in/shimul-zahan-b5035427b/"> */}
               <FaLinkedin />
             </a>
-            <a target='_blank' href="https://www.facebook.com/shimul.zahan.9">
-              <FaFacebookSquare />
+            <a target='_blank' href="https://www.instagram.com/harrrshit_sharma/">
+
+            <FaInstagramSquare />
+
+              {/* <FaFacebookSquare /> */}
             </a>
             <FaDribbbleSquare />
             <FaGoogle />

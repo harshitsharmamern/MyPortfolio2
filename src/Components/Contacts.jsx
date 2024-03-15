@@ -1,6 +1,6 @@
 import Title from './Title'
 import SubTitle from './SubTitle'
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaDribbbleSquare } from "react-icons/fa";
@@ -18,18 +18,23 @@ const Contacts = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_7ay2tdk', 'template_z5dxop8', form.current, '8R2AlonC3RdZ-e1uD')
-            .then((result) => {
-                Swal.fire({
-                    title: "Congratulations!!!",
-                    text: "Message sent",
-                    icon: "success"
-                });
-                e.target.reset();
-            }, (error) => {
-                console.log(error);
-            });
+          
+        Swal.fire({
+                        title: "This is not working right now😓 you can dm me in whatsapp!!!",
+                        text: "Message sent",
+                        icon: "success"
+                    });
+        // emailjs.sendForm('service_7ay2tdk', 'template_z5dxop8', form.current, '8R2AlonC3RdZ-e1uD')
+        //     .then((result) => {
+        //         Swal.fire({
+        //             title: "Congratulations!!!",
+        //             text: "Message sent",
+        //             icon: "success"
+        //         });
+        //         e.target.reset();
+        //     }, (error) => {
+        //         console.log(error);
+        //     });
     };
 
     return (
@@ -41,32 +46,32 @@ const Contacts = () => {
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:my-20 px-4 md:px-10">
                 <div className="rounded-lg space-y-8">
                     <div className='space-y-3'>
-                        <h1 className='md:text-xl font-bold text-white'>ADRESS</h1>
-                        <p className='md:text-lg font-medium text-[#b7b5b5]'>Mohanpur, Rajshahi-6220 <br /> Bangladesh</p>
+                        <h1 className='md:text-xl font-bold text-white'>ADDRESS</h1>
+                        <p className='md:text-lg font-medium text-[#b7b5b5]'> Bhopal , M.P  <br /> INDIA</p>
                     </div>
                     <div className='space-y-2 text-[#b7b5b5]'>
                         <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
-                            <IoCall className='text-[#20c997] md:text-xl' />+880 1714760739</h1>
+                            <IoCall className='text-[#20c997] md:text-xl' />+91 16260595903</h1>
                         <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
-                            <FaLinkedin className='text-[#20c997] md:text-xl' />Shimul Zahan</h1>
+                            <FaLinkedin className='text-[#20c997] md:text-xl' />Harshit Sharma</h1>
                         <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
-                            <FaWhatsappSquare className='text-[#20c997] md:text-xl' /> +880 1714760739</h1>
+                            <FaWhatsappSquare className='text-[#20c997] md:text-xl' /> +91 7240979852</h1>
                         <h1 className='md:text-lg font-medium flex justify-start items-center gap-2'>
-                            <IoIosMail className='text-[#20c997] text-2xl' />shimulzahan636@gmail.com</h1>
+                            <IoIosMail className='text-[#20c997] text-2xl' />sharmaharshit769@gmail.com</h1>
                     </div>
                     <div className='space-y-3'>
                         <h1 className='md:text-xl font-bold text-white'>FOLLOW ME</h1>
                         <div className='flex justify-start items-center md:text-2xl text-[#b7b5b5] space-x-3'>
-                            <a target='_blank' href="https://github.com/Shimul-Zahan">
+                            <a target='_blank' href="https://github.com/harshitsharmamern">
                                 <FaGithub />
                             </a>
-                            <a target='_blank' href="https://www.linkedin.com/in/shimul-zahan-b5035427b/">
+                            <a target='_blank' href="https://www.linkedin.com/in/harshit-sharma-7b039b1aa/">
                                 <FaLinkedin />
                             </a>
-                            <a target='_blank' href="https://www.facebook.com/shimul.zahan.9">
-                                <FaFacebookSquare />
+                            <a target='_blank' href="https://www.instagram.com/harrrshit_sharma/">
+                                   <FaInstagramSquare />
                             </a>
-                            <FaDribbbleSquare />
+                            {/* <FaDribbbleSquare /> */}
                             <FaGoogle />
                         </div>
                     </div>

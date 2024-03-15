@@ -14,7 +14,7 @@ const Portfolio = () => {
             .then(res => res.json())
             .then(data => setData(data));
     }, [])
-
+console.log(data);
     return (
         <div id='skills' className='bg-[#212529] min-h-screen relative pb-10'>
             <Title Children={'PORTFOLIO'} />

@@ -1,7 +1,9 @@
+
+
 [
     {
         "id": 1,
-        "projectName": "Memory Matrimony BD",
+        "projectName": "Yuva portal",
         "projectDetails": "This is a partner search site. Here a boy or girl can find a partner of their choice. This site has separate dashboard for both user and admin. There is also a system to take premium membership, so if you are not a premium member, there is also a system to request to take the number of your favorite person by paying money.",
         "usedTechnology": [
             "React",
@@ -14,15 +16,16 @@
             "JavaScript"
         ],
         "images": [
-            "https://i.ibb.co/BCdXqqX/image-1.png",
-            "https://i.ibb.co/C2Q2FVm/mat-2.png"
+           "https://instructor-academy.onlinecoursehost.com/content/images/2023/03/OCH-dashboard.jpeg"
+
         ],
-        "Live": "https://memory-matrimony-bd.surge.sh/",
-        "git": "https://github.com/Shimul-Zahan/Matrimony-frontend"
+        "Live": "https://yuvaportal.youngindians.net/",
+        "git": "https://github.com/harshitsharmamern/yuva-client"
     },
+
     {
         "id": 2,
-        "projectName": "Feeding Neighbour",
+        "projectName": "slot-booking",
         "projectDetails": "It is a food sharing site where a user can share his/her sold food and if one wants to pay some money, one can take it for free or if one wants to eat it for free. Here also the donor can change all the updates of his food.",
         "usedTechnology": [
             "React",
@@ -32,19 +35,21 @@
             "Node.js",
             "Express",
             "MongoDB",
+            "NEXT.JS",
+            "cronlob",
+
             "JavaScript"
         ],
         "images": [
-            "https://i.ibb.co/VpmN8Fp/fs-1.png",
-            "https://i.ibb.co/Bgg9bxr/fs-2.png"
+           "https://i.ytimg.com/vi/--MJb-nMGuc/maxresdefault.jpg"
         ],
-        "Live": "https://terrific-territory.surge.sh/",
-        "git": "https://github.com/Shimul-Zahan/community-food-shareing"
+        "Live": "https://slot-booking-frontend-orpin.vercel.app/",
+        "git": "https://github.com/harshitsharmamern/slot-booking-frontend"
     },
     
     {
         "id": 3,
-        "projectName": "Unity Shop",
+        "projectName": "social media",
         "projectDetails": "This is a e-commerce website. Here the products of various brands have been shown. Different brands can add their products. And he can delete and update them later. Users can see the products of their choice. You can buy it at will. The products he buys will be added to the add to card section.",
         "usedTechnology": [
             "React",
@@ -52,46 +57,38 @@
             "Node.js",
             "Express",
             "MongoDB",
+            "MULTER",
             "JavaScript"
         ],
         "images": [
-            "https://i.ibb.co/sV11j3p/bs-1.png",
-            "https://i.ibb.co/YLyNsMS/bs-2.png"
+            "https://hasthemes.com/blog/wp-content/uploads/2022/07/instello-ultimate-photo-sharing-html-template.png"
+            
         ],
-        "Live": "https://brand-shop-3a60e.web.app/",
-        "git": "https://github.com/Shimul-Zahan/brand-shop-frontend"
+        "Live": "https://social-media-frontend-topaz-iota.vercel.app/",
+        "git": "https://github.com/harshitsharmamern/social_media_frontend"
     },
     {
-        "id": 6,
-        "projectName": "Dragon News",
+        "id": 4,
+        "projectName": "Quiz Application",
         "projectDetails": "A platform for news portal",
         "usedTechnology": [
             "React",
             "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "MULTER",
+            "MachineLearning",
+            "chart.js",
             "JavaScript"
         ],
         "images": [
-            "https://i.ibb.co/09RrwrP/tg-1.png",
-            "https://i.ibb.co/n3nj7xH/tg-2.png"
+           "https://themeforest.img.customer.envatousercontent.com/files/371711944/Preview+Screenshot/00.+Cover.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=1ba019b42d3df71ad413d6e982469fb2"
         ],
-        "Live": "https://dragon-news-f31ec.web.app/",
-        "git": "https://github.com/Shimul-Zahan/dragon-news"
-    },
-    {
-        "id": 5,
-        "projectName": "Travel Guru",
-        "projectDetails": "An application for travel agency.",
-        "usedTechnology": [
-            "React",
-            "Tailwind CSS",
-            "JavaScript"
-        ],
-        "images": [
-            "https://i.ibb.co/NshnTfr/dn-1.png",
-            "https://i.ibb.co/WDRjszT/dn-2.png"
-        ],
-        "Live": "https://travel-guru-4f2cf.web.app/",
-        "git": "https://github.com/Shimul-Zahan/travel-guru"
+        "Live": "https://quiz-app-frontend-pink.vercel.app/",
+        "git": "https://github.com/harshitsharmamern/Quiz_app_backend"
     }
+
+    
     
 ]
